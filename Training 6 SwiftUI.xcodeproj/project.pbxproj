@@ -13,6 +13,9 @@
 		1545BEB423463BBA00D0118B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1545BEB323463BBA00D0118B /* Assets.xcassets */; };
 		1545BEB723463BBA00D0118B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1545BEB623463BBA00D0118B /* Preview Assets.xcassets */; };
 		1545BEBA23463BBA00D0118B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1545BEB823463BBA00D0118B /* LaunchScreen.storyboard */; };
+		1545BEC223463D1B00D0118B /* CustomLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545BEC123463D1B00D0118B /* CustomLabelTextField.swift */; };
+		1545BEC4234644C400D0118B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545BEC3234644C400D0118B /* RoundedButton.swift */; };
+		1545BEC6234655A600D0118B /* MakananModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545BEC5234655A600D0118B /* MakananModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1545BEB623463BBA00D0118B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1545BEB923463BBA00D0118B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1545BEBB23463BBA00D0118B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1545BEC123463D1B00D0118B /* CustomLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelTextField.swift; sourceTree = "<group>"; };
+		1545BEC3234644C400D0118B /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		1545BEC5234655A600D0118B /* MakananModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				1545BEB823463BBA00D0118B /* LaunchScreen.storyboard */,
 				1545BEBB23463BBA00D0118B /* Info.plist */,
 				1545BEB523463BBA00D0118B /* Preview Content */,
+				1545BEC123463D1B00D0118B /* CustomLabelTextField.swift */,
+				1545BEC3234644C400D0118B /* RoundedButton.swift */,
+				1545BEC5234655A600D0118B /* MakananModel.swift */,
 			);
 			path = "Training 6 SwiftUI";
 			sourceTree = "<group>";
@@ -147,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1545BEAE23463BB500D0118B /* AppDelegate.swift in Sources */,
+				1545BEC4234644C400D0118B /* RoundedButton.swift in Sources */,
+				1545BEC223463D1B00D0118B /* CustomLabelTextField.swift in Sources */,
 				1545BEB023463BB500D0118B /* SceneDelegate.swift in Sources */,
 				1545BEB223463BB500D0118B /* ContentView.swift in Sources */,
+				1545BEC6234655A600D0118B /* MakananModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
